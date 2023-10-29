@@ -5,14 +5,9 @@ import (
 	"io"
 	"net/http"
 	"os"
-
-	"github.com/gleison/peculi/internal/model"
-	"github.com/gleison/peculi/internal/service"
 )
 
 func main() {
-	service.SayHello()
-	model.SayHi()
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", index)
 
