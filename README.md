@@ -1,4 +1,5 @@
 ![go report](https://goreportcard.com/badge/github.com/gleison/peculi)
+[![Go](https://github.com/gleison/peculi/actions/workflows/go.yml/badge.svg)](https://github.com/gleison/peculi/actions/workflows/go.yml)
 
 # Peculi
 Peculi is an App to Control my investiments.
