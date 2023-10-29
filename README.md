@@ -1,3 +1,5 @@
+![go report](https://goreportcard.com/badge/github.com/gleison/peculi)
+
 # Peculi
 Peculi is an App to Control my investiments.
 
