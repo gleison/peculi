@@ -10,8 +10,11 @@ import (
 func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", index)
-
-	err := http.ListenAndServe(":3333", mux)
+    port := os.Getenv("PORT")
+    if port == "" {
+        port = "3333"
+    }
+	err := http.ListenAndServe(":" + port, mux)
 	fmt.Printf("Error: %v\n", err)
 }
 
